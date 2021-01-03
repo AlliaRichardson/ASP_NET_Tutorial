@@ -8,6 +8,7 @@ namespace BookListRazor.Model
 {
     public class ApplicationDbContext : DbContext
     {
+        //The parameter is add for dependency injection
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
 
