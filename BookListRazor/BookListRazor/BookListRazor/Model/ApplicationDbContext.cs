@@ -15,5 +15,10 @@ namespace BookListRazor.Model
         }
 
         public DbSet<Book> Book { get; set; }
+
+        internal Task SaveChangeAsync()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
